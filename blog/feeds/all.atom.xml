@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-18T11:00:00+08:00</updated><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-02-18T01:42:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T08:21:47+08:00</updated><entry><title>2024 Spring 課程 w2</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-03-29T15:00:00+08:00</published><updated>2024-04-11T08:20:59+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-29:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+
+
+&lt;h1&gt;123&lt;/h1&gt;
+&lt;p&gt;使用者可以自行利用 [cmsimde_site] 倉儲作為 Template, 建立自己的網站內容管理系統.&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w5</title><link href="./2024-Spring-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T15:00:00+08:00</published><updated>2024-04-11T08:21:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-Spring-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;這週為課堂影片講解上字幕，組長依序分配每個成員所需要完成的影片及逐字稿，並上傳至YouTube，且在動態上打出摘要且心得。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;這週為課堂影片講解上字幕，組長依序分配每個成員所需要完成的影片及逐字稿，並上傳至YouTube，且在動態上打出摘要且心得。&lt;/p&gt;
+
+
+&lt;h1&gt;上字幕&lt;/h1&gt;
+&lt;p&gt;w5 2b 分組任務
+請各組自行搜尋前面已經發布的教學影片, 分別在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上
+從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排
+並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/S-5QAeogShM?si=k885q4WrW7YuSly_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v9EAEM2n8XA?si=GYusCQ4ZP2ZNdsqZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T15:00:00+08:00</published><updated>2024-04-11T08:21:05+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-Spring-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+
+
+&lt;h1&gt;123&lt;/h1&gt;
+&lt;p&gt;使用者可以自行利用 [cmsimde_site] 倉儲作為 Template, 建立自己的網站內容管理系統.&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-04-11T08:07:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 

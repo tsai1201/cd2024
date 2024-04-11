@@ -1,7 +1,7 @@
 <h1>About</h1>
-<p>網頁: 請填入目前網站所在的 URL, <a href="https://mde.tw/cmsimde_site">https://mde.tw/cmsimde_site</a> </p>
-<p>網誌: 請填入目前網站所在的 URL/blog, <a href="https://mde.tw/cmsimde_site/blog">https://mde.tw/cmsimde_site/blog</a> </p>
-<p>簡報: 請填入目前網站所在的 URL/reveal, <a href="https://mde.tw/cmsimde_site/reveal">https://mde.tw/cmsimde_site/reveal</a> </p>
+<p>網頁: 請填入目前網站所在的 URL, <a href="https://mde.tw/cmsimde_site">https://mde.tw/cmsimde_site</a></p>
+<p>網誌: 請填入目前網站所在的 URL/blog, <a href="https://mde.tw/cmsimde_site/blog">https://mde.tw/cmsimde_site/blog</a></p>
+<p>簡報: 請填入目前網站所在的 URL/reveal, <a href="https://mde.tw/cmsimde_site/reveal">https://mde.tw/cmsimde_site/reveal</a></p>
 <p>倉儲: 請填入目前網站所對應的 Github 倉儲連結</p>
 <p>本 cmsimde 網際內容管理系統的對應 Template 倉儲:</p>
 <p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a></p>
@@ -23,7 +23,8 @@
 <p><span style="background-color: #ccffcc;">SStatic</span> - Start Static Site - 利用 Python 啟動網站伺服功能, 可以讓使用者檢查轉檔後的靜態網站內容.</p>
 <p><span style="background-color: #ccffcc;">RStatic</span> - Replit Static Site URL - 僅用於 Replit 模式, 當使用者按下 SStatic 後, 可以按下 RStatic 進入當下尚未推向 Github Pages 的靜態網站.</p>
 <p><span style="background-color: #ccffcc;">80</span> - 由 init.py 中 static_port 所決定的連結字串, 一般不使用 80, 只有在 Replit 中為了與動態網站共用 port, 才特別設為 80.</p>
-<p></p><h1>Replit</h1>
+<p></p>
+<h1>Replit</h1>
 <p><a href="https://replit.com">https://replit.com</a></p>
 <p>利用 init_replit 指令安裝所需 Python 模組<br/><br/>chmod u+x init_replit<br/><br/>./init_replit</p>
 <p dir="auto">On Replit:</p>
@@ -36,7 +37,8 @@
 <p dir="auto"></p>
 <p dir="auto">for IPv6 only Ubuntu:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.com<br/>ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p<br/><br/>for Replit:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.co<br/>#since Replit works for IPv4, therefore no ProxyCommand setting needed<br/>#ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</p>
 <p></p>
-<p></p><h1>Brython</h1>
+<p></p>
+<h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
@@ -78,6 +80,27 @@ brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
 <p>從 1 累加到 100:</p>
 <p><button id="add1to100">1 add to 100</button></p>
 <p>將 iterable 與 iterator <a href="https://home.gamer.com.tw/creationDetail.php?sn=4337438">相關說明</a>, 利用 Brython 與 Ace Editor 整理在這個頁面.</p>
+<h1>W3</h1>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h1>W5</h1>
+<h4>上字幕影片07(<span>利用 codespaces 維護分組網站 7)</span></h4>
+<p><a href="https://mdecd2024.github.io/2b-midbg7/downloads/07%E9%80%90%E5%AD%97%E7%A8%BF.txt">逐字稿</a></p>
+<h3>摘要:</h3>
+<h3>心得:</h3>
+<p></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/S-5QAeogShM" width="560"></iframe></p>
+<h4>上字幕影片11(<span>以第六組為例, 利用 Codespaces 改版 11)</span></h4>
+<p><span><a href="https://mdecd2024.github.io/2b-midbg7/downloads/11%E9%80%90%E5%AD%97%E7%A8%BF.txt">逐字稿</a></span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/v9EAEM2n8XA" width="560"></iframe></p>
 <!-- 導入 brython 程式庫 -->
 <p>
 <script src="/static/brython.js"></script>
@@ -187,7 +210,6 @@ doc["add1to100"].bind('click', add)
 <p><!-- add 1 to 100 結束--></p>
 <!-- editor1 開始 -->
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<div id="kw_editor1" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
 <form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="Save"/></form>
@@ -306,7 +328,10 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <p><!-- add 1 to 100 part2 結束--></p>
 <!-- editor2 開始 -->
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<div id="kw_editor2" style="width: 600px; height: 300px;"></div>
+<p></p>
+<p><br/><br/><br/><br/></p>
+<p></p>
+<p></p>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
 <form><label>Filename: <input id="kw_filename2" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="Save"/></form>

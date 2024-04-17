@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123247網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-16T16:13:22+08:00</updated><entry><title>2024 Spring 課程 w7</title><link href="./4720240411.html" rel="alternate"></link><published>2024-04-11T15:00:00+08:00</published><updated>2024-04-16T16:13:22+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-04-11:./4720240411.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123247網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-17T15:53:00+08:00</updated><entry><title>2024 Spring 課程 w7</title><link href="./41123247-w7-blog.html" rel="alternate"></link><published>2024-04-11T15:00:00+08:00</published><updated>2024-04-17T15:53:00+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-04-11:./41123247-w7-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
 
 
 &lt;h1&gt;w1-w6內容統整&lt;/h1&gt;
-&lt;p&gt;老師所講的內容統整&lt;/p&gt;</content><category term="w7"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w6</title><link href="./4720240328.html" rel="alternate"></link><published>2024-03-28T15:00:00+08:00</published><updated>2024-04-16T16:10:04+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-28:./4720240328.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 分組網誌的統整、 Github Actions 帶有子模組的 main.yml 設定、更新分組倉儲中的分組倉儲.&lt;/p&gt;
+&lt;p&gt;老師所講的內容統整&lt;/p&gt;</content><category term="w7"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w6</title><link href="./41123247-w6-blog.html" rel="alternate"></link><published>2024-03-28T15:00:00+08:00</published><updated>2024-04-17T15:52:51+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-28:./41123247-w6-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 分組網誌的統整、 Github Actions 帶有子模組的 main.yml 設定、更新分組倉儲中的分組倉儲.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 分組網誌的統整、 Github Actions 帶有子模組的 main.yml 設定、更新分組倉儲中的分組倉儲.&lt;/p&gt;
 
 
@@ -17,7 +17,7 @@
 &lt;p&gt;cd2024 2a w6 取下子模組, 以及更新學員倉儲內容&lt;/p&gt;
 &lt;p&gt;先前我們有把每個人的倉儲利用子模組導入組別倉儲, 即使你自己的倉儲有更新內容, 也不會顯示目前更新次數, 如何讓子模組同步就利用 update 更新到最新版本. git submodule update --init cd 學號 git pull origin main cd .. git status git add . git commit -m "update 學號 子模組" git push&lt;/p&gt;
 &lt;p&gt;就完成更新目前的倉儲&lt;/p&gt;
-&lt;h1&gt;此為第六周內容&lt;/h1&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w5</title><link href="./4720240321.html" rel="alternate"></link><published>2024-03-21T15:00:00+08:00</published><updated>2024-04-16T16:09:42+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-21:./4720240321.html</id><summary type="html">&lt;p&gt;這週為課堂影片講解上字幕，組長依序分配每個成員所需要完成的影片及逐字稿，並上傳至YouTube，且在動態上打出摘要且心得。&lt;/p&gt;
+&lt;h1&gt;此為第六周內容&lt;/h1&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w5</title><link href="./41123247-w5-blog.html" rel="alternate"></link><published>2024-03-21T15:00:00+08:00</published><updated>2024-04-17T15:52:42+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-21:./41123247-w5-blog.html</id><summary type="html">&lt;p&gt;這週為課堂影片講解上字幕，組長依序分配每個成員所需要完成的影片及逐字稿，並上傳至YouTube，且在動態上打出摘要且心得。&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;這週為課堂影片講解上字幕，組長依序分配每個成員所需要完成的影片及逐字稿，並上傳至YouTube，且在動態上打出摘要且心得。&lt;/p&gt;
 
 
@@ -28,7 +28,7 @@
 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/S-5QAeogShM?si=k885q4WrW7YuSly_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v9EAEM2n8XA?si=GYusCQ4ZP2ZNdsqZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w4</title><link href="./4720240314.html" rel="alternate"></link><published>2024-03-14T15:00:00+08:00</published><updated>2024-04-16T16:01:57+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-14:./4720240314.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v9EAEM2n8XA?si=GYusCQ4ZP2ZNdsqZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w4</title><link href="./41123247-w4-blog.html" rel="alternate"></link><published>2024-03-14T15:00:00+08:00</published><updated>2024-04-17T15:52:33+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-14:./41123247-w4-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.&lt;/p&gt;
 
 
@@ -36,7 +36,7 @@
 &lt;p&gt;教學影片分組整理並自評: * 在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上 * 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排 * 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點&lt;/p&gt;
 &lt;h1&gt;Github 個人與分組倉儲的維護方式&lt;/h1&gt;
 &lt;p&gt;個人的倉儲名稱為 cd2024, 而期中的分組倉儲位於 mdecd2024 帳號下, 以2a 開頭, 加上 "-" 之後再補上 midag + 組別, 且各組員的 cd2024 個人倉儲必須設為各分組倉儲的子模組, 目的在各組員可以自行管理並維護自己的課程倉儲, 並決定要引入分組倉儲的內容版次. * 方法一 - Replit * 方法二 - Codespaces * 方法三 - Gitpod * 方法四 - localhost&lt;/p&gt;
-&lt;h1&gt;此為第四周內容&lt;/h1&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w3</title><link href="./4720240307.html" rel="alternate"></link><published>2024-03-07T15:00:00+08:00</published><updated>2024-04-16T15:59:57+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-07:./4720240307.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+&lt;h1&gt;此為第四周內容&lt;/h1&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w3</title><link href="./41123247-w3-blog.html" rel="alternate"></link><published>2024-03-07T15:00:00+08:00</published><updated>2024-04-17T15:52:24+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-03-07:./41123247-w3-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 
 
@@ -44,7 +44,7 @@
 &lt;p&gt;如何利用 Github Codespaces 建立, cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站. 先 git submodule add 自己的倉儲空格學號, git add . , git commit -m "add 學號 submodule" , 最後在 git push.&lt;/p&gt;
 &lt;h1&gt;期中報告&lt;/h1&gt;
 &lt;p&gt;由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2a-midbgx_report.pdf 的製作.&lt;/p&gt;
-&lt;h1&gt;此為第三周內容&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w2</title><link href="./4720240229.html" rel="alternate"></link><published>2024-02-29T15:00:00+08:00</published><updated>2024-04-16T15:41:53+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-02-29:./4720240229.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
+&lt;h1&gt;此為第三周內容&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w2</title><link href="./41123247-w2-blog.html" rel="alternate"></link><published>2024-02-29T15:00:00+08:00</published><updated>2024-04-17T15:52:16+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-02-29:./41123247-w2-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
 
 
@@ -55,7 +55,7 @@
 &lt;p&gt;啟動動態 指令 1.chmod u+x init_replit 2. ./init_replit 3. Python3 main.py&lt;/p&gt;
 &lt;p&gt;靜態 指令 Python3 -m http.server&lt;/p&gt;
 &lt;p&gt;Push 指令 1.git add . 2. git commit -m " add+你要推的內容 " 3. git push&lt;/p&gt;
-&lt;h1&gt;此為第二周內容&lt;/h1&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w1</title><link href="./4720240222.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-04-16T15:18:26+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-02-22:./4720240222.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;h1&gt;此為第二周內容&lt;/h1&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程 w1</title><link href="./41123247-w1-blog.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-04-17T15:51:56+08:00</updated><author><name>蔡明翰</name></author><id>tag:None,2024-02-22:./41123247-w1-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 

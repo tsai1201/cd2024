@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123247網誌 - w9</title><link href="./" rel="alternate"></link><link href="./feeds/w9.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T07:04:45+08:00</updated><entry><title>2024 Spring 課程 w9</title><link href="./41123247-w9-blog.html" rel="alternate"></link><published>2024-04-18T15:00:00+08:00</published><updated>2024-04-25T07:04:45+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-04-18:./41123247-w9-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
+
+
+&lt;h1&gt;鋼球平衡台 PID 控制與模擬&lt;/h1&gt;
+&lt;p&gt;使用 matplotlib 可視化 CoppeliaSim 鋼球平衡台 PID 控制
+由於您沒有提供原本的 PID 控制程式碼，我將提供一個帶有 matplotlib 可視化的示例框架。請將您的 PID 控制邏輯替換到相應位置。
+import zmq
+import time
+import matplotlib.pyplot as plt&lt;/p&gt;
+&lt;h1&gt;ZMQ 參數&lt;/h1&gt;
+&lt;p&gt;context = zmq.Context()
+socket = context.socket(zmq.REQ)
+socket.connect("tcp://localhost:23000")&lt;/p&gt;
+&lt;h1&gt;PID 控制參數 (請根據您的實際情況調整)&lt;/h1&gt;
+&lt;p&gt;Kp = 1.0
+Ki = 0.1
+Kd = 0.01&lt;/p&gt;
+&lt;h1&gt;初始化&lt;/h1&gt;
+&lt;p&gt;prev_error = 0
+integral = 0
+x_history = []
+y_history = []&lt;/p&gt;
+&lt;h1&gt;控制迴圈&lt;/h1&gt;
+&lt;p&gt;while True:
+    # 獲取鋼球位置
+    socket.send_string("getBallPosition")
+    message = socket.recv_string()
+    x, y = map(float, message.split(","))&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gh"&gt;#&lt;/span&gt; PID 控制邏輯 (請替換為您的控制邏輯)
+error = 0 - x  # 假設目標位置為 x=0
+integral += error &lt;span class="gs"&gt;* dt&lt;/span&gt;
+&lt;span class="gs"&gt;derivative = (error - prev_error) / dt&lt;/span&gt;
+&lt;span class="gs"&gt;output = Kp *&lt;/span&gt; error + Ki &lt;span class="gs"&gt;* integral + Kd *&lt;/span&gt; derivative
+
+&lt;span class="gh"&gt;#&lt;/span&gt; 發送控制信號 (請根據您的實際情況修改)
+socket.send_string(f&amp;quot;setMotorSpeed,{output}&amp;quot;)
+_ = socket.recv_string()
+
+&lt;span class="gh"&gt;#&lt;/span&gt; 紀錄歷史數據
+x_history.append(x)
+y_history.append(y)
+
+&lt;span class="gh"&gt;#&lt;/span&gt; 更新誤差
+prev_error = error
+
+&lt;span class="gh"&gt;#&lt;/span&gt; 延遲
+time.sleep(0.01)
+
+&lt;span class="gh"&gt;#&lt;/span&gt; 繪製圖表 (例如每 100 步繪製一次)
+if len(x_history) % 100 == 0:
+    plt.plot(x_history, label=&amp;quot;X&amp;quot;)
+    plt.plot(y_history, label=&amp;quot;Y&amp;quot;)
+    plt.legend()
+    plt.xlabel(&amp;quot;Time&amp;quot;)
+    plt.ylabel(&amp;quot;Position&amp;quot;)
+    plt.show()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Use code with caution.
+Python
+說明:
+ZMQ 通訊: 使用 ZMQ 與 CoppeliaSim 進行通訊，獲取鋼球位置並發送控制信號。
+PID 控制邏輯: 示例中使用一個簡單的 PID 控制邏輯，您需要替換為您的實際控制邏輯。
+數據記錄: 紀錄鋼球的 x 和 y 方向座標歷史數據。
+matplotlib 可視化: 使用 matplotlib 繪製 x 和 y 方向座標随時間變化的圖表，以便觀察控制效果。
+請注意:
+您需要根據您的實際情況修改 ZMQ 通訊端口、PID 控制參數、控制信號格式以及繪圖頻率。
+確保您已經安裝了必要的 Python 模塊，例如 zmq 和 matplotlib。
+希望這個示例框架能幫助您可視化 CoppeliaSim 鋼球平衡台的 PID 控制過程。&lt;/p&gt;</content><category term="w9"></category><category term="網誌編寫"></category></entry></feed>

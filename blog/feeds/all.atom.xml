@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123247網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-23T05:05:07+08:00</updated><entry><title>41123247-W12</title><link href="./41123247-w12-blog.html" rel="alternate"></link><published>2024-05-09T15:00:00+08:00</published><updated>2024-05-23T05:04:55+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-05-09:./41123247-w12-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 各組別利用NX來繪圖&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123247網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-23T15:00:00+08:00</updated><entry><title>41123247-W14</title><link href="./41123247-w14-blog.html" rel="alternate"></link><published>2024-05-23T15:00:00+08:00</published><updated>2024-05-23T06:43:02+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-05-23:./41123247-w14-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 各組別利用NX來繪圖&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 各組別利用NX來繪圖&lt;/p&gt;
+
+
+&lt;h1&gt;任務1:NX零件圖與錄影檔&lt;/h1&gt;
+&lt;p&gt;每個組別需要利用NX程式來繪製出老師所給的五個圖檔。我們這組為了公平起見，使用抽籤的方式來選出五位組員進行畫圖的行動。由於我沒有被抽到，所以此任務無執行動作。&lt;/p&gt;</content><category term="w14"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W12</title><link href="./41123247-w12-blog.html" rel="alternate"></link><published>2024-05-09T15:00:00+08:00</published><updated>2024-05-23T07:19:16+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-05-09:./41123247-w12-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 各組別利用NX來繪圖&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 各組別利用NX來繪圖&lt;/p&gt;
 
 
@@ -137,135 +142,7 @@ fetch_csv_data()
 &lt;p&gt;摘要內容 : 平衡問題是一個持續的研究挑戰，適用於從教育到交通的許多興趣領域。二自由度球平衡實驗室試驗台是瞭解控制系統的重要設備。本文重點介紹了在板上平衡球的機械設計。使用電阻式觸摸屏獲取球體位置數據，使用步進電機和位置傳感器控制平台傾斜角度。 設計基於 AVR 微控制器的雙環下屬控制系統，使用 PID 控制器維持球體平衡。&lt;/p&gt;
 &lt;p&gt;文章六 : 2D Ball Balancer Control using QUARC (使用 QUARC 的 2D 球平衡器控制)&lt;/p&gt;
 &lt;p&gt;摘要內容 : 使用 QUARC 軟體設計和實現球體在二維平台上的位置控制。 設計 PD 和 PID 控制器，並探討設定點權重和積分器抗飽和等控制技術。 使用攝像頭讀取球體位置，並進行校準和轉換。&lt;/p&gt;
-&lt;h1&gt;任務3&lt;/h1&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W13</title><link href="./41123247-w13-blog.html" rel="alternate"></link><published>2024-04-25T15:00:00+08:00</published><updated>2024-05-23T05:04:50+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-04-25:./41123247-w13-blog.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-&lt;h1&gt;任務1&lt;/h1&gt;
-&lt;pre class="brush: python"&gt;
-from browser import window, ajax
-
-def fetch_csv_data():
-  # CSV 檔案網址
-  url = "https://mdecd2024.github.io/2bstud-2bsite/downloads/2b.txt"
-
-  def on_complete(req):
-    if req.status == 200 or req.status == 0:
-      # 讀取 CSV 檔案內容
-      content = req.text
-
-      # 依照換行符號拆分資料
-      lines = content.split('\n')
-
-      # 建立空列表儲存資料
-      data = []
-
-      # 遍歷每一行資料
-      for line in lines:
-        # 忽略空白行
-        if line.strip() == "":
-          continue
-
-        # 依照逗號拆分資料
-        items = line.split(',')
-
-        # 將拆分後的資料加入列表
-        data.append(items)
-
-      # 印出結果
-      print(data)
-    else:
-      print("Error:", req.text)
-
-  # 發送 AJAX 請求
-  req = ajax.ajax()
-  req.bind('complete', on_complete)
-  req.open('GET', url, True)
-  req.set_header('content-type', 'application/x-www-form-urlencoded')
-  req.send()
-
-# 呼叫函式讀取 CSV 資料
-fetch_csv_data()
-&lt;/pre&gt;
-&lt;p&gt;只要透過 for 重複迴圈, 就可以從上列資料中每位學員的基本資料 (學號、Github 帳號與組別) 中直接在網頁建立所需的 html.&lt;/p&gt;
-&lt;p&gt;並列出-學員倉儲連結/學員網站連結/2a 分組倉儲連結 template: https://github.com/mdecd2024/2a-midag組別&lt;/p&gt;
-&lt;p&gt;下列程式碼是加上了生成 HTML 元素的程式碼，以及學員倉庫連結和網站連結的模板：&lt;/p&gt;
-&lt;pre class="brush: python"&gt;
-  from browser import window, ajax, document, html
-
-  def fetch_csv_data():
-    # CSV 檔案網址
-    url = "https://mdecd2024.github.io/2astud-2asite/downloads/2a.txt"
-
-    def on_complete(req):
-      if req.status == 200 or req.status == 0:
-        # 讀取 CSV 檔案內容
-        content = req.text
-
-        # 依照換行符號拆分資料
-        lines = content.split('\n')
-
-        # 建立空列表儲存資料
-        data = []
-
-        # 遍歷每一行資料
-        for line in lines:
-          # 忽略空白行
-          if line.strip() == "":
-            continue
-
-          # 依照逗號拆分資料
-          items = line.split(',')
-
-          # 將拆分後的資料加入列表
-          data.append(items)
-
-        # 印出結果
-        print(data)
-
-        # 生成 HTML 元素
-        generate_html(data)
-      else:
-        print("Error:", req.text)
-
-    # 發送 AJAX 請求
-    req = ajax.ajax()
-    req.bind('complete', on_complete)
-    req.open('GET', url, True)
-    req.set_header('content-type', 'application/x-www-form-urlencoded')
-    req.send()
-
-  # 生成 HTML 元素
-  def generate_html(data):
-    brython_div = document["brython_div1"]
-    course_title = "cd2024"
-    for student_id, github_username, group in data:
-      # 如果GitHub用戶名為空，將其設置為"000"
-      github_username = github_username if github_username else "000"
-      # 創建網址和倉庫的鏈接
-      site_url = f"https://{github_username}.github.io/{course_title}"
-      repo_url = f"https://github.com/{github_username}/{course_title}"
-      group_repo_url = f"https://github.com/mdecd2024/2a-midag{group}"
-      # 生成HTML元素並插入到div中
-      brython_div &lt;= html.A(student_id, href=site_url) + " | " + \
-                     html.A("GitHub Repo", href=repo_url) + " | " + \
-                     html.A("Group Repo", href=group_repo_url) + html.BR()
-
-  # 呼叫函式讀取 CSV 資料
-  fetch_csv_data()
-&lt;/pre&gt;
-&lt;h1&gt;任務2&lt;/h1&gt;
-&lt;p&gt;文章一 : Construction and theoretical study of a ball balancing platform (構建一個球體平衡平台涉及到平台本身的物理結構建造以及用於維持球體平衡的控制算法的理論研究)&lt;/p&gt;
-&lt;p&gt;摘要內容 : 通過實施自動控制理論穩定動態系統時的局限性, 球平衡平臺的構造和理論研究, 通過實施穩定動態系統時的局限性自動控制理論. 通過物理構造的裝置作為理論的演示者, 進一步比較從牛頓力學得出的事實物理和計算機模擬結果. 為了能夠進行比較, 有必要設計一個能夠滿足系統要求的令人滿意的控制器. 在設備和控制方面, 為在平臺上平衡球的系統引入比例積分導數控制器. 進一步允許分析以確定穩定自然不穩定或半穩定系統時的局限性. 建立球體平衡平台的理論模型, 並與實際搭建的平台進行比較. 分析理論與實際結果之間的差異, 探討控制理論與系統實施的挑戰.&lt;/p&gt;
-&lt;p&gt;文章二 : A real time control system for balancing a ball on a platform with FPGA parallel implementation (用於在平臺上平衡球的即時控制系統，具有FPGA並行實現)&lt;/p&gt;
-&lt;p&gt;摘要內容 : 在一個FPGA晶元上開發了兩個並行PID控制器，用於獨立控制一個物件的兩個參數。確保了控制物件的PID控制器的輪廓計算的並行處理，調節器的輸出已經歸一化。通過自然類比，提高了在平台上調節球位置的精度。設計的控制器可用於即時控制具有許多受控參數的高速物體。&lt;/p&gt;
-&lt;p&gt;文章三 : Simulation and Experimental Study of Ball Position Control at Biaxial Platform using State Space Approach (基於狀態空間方法的雙軸平臺球位控制模擬與實驗研究)&lt;/p&gt;
-&lt;p&gt;摘要內容 : 本研究詳細設計並比較了三種控制結構，用於自動穩定球在板上的位置和球的軌跡跟蹤。即PD控制器、狀態空間反饋和狀態空間觀測器。所有三種方法都經過設計並進行了實際比較。所有結構都有一個共同的特徵。它是計算控制器參數的方法。通過牛頓方法推導的板上球數學模型和直流電機位置環路控制也是本文的一部分。&lt;/p&gt;
-&lt;p&gt;文章四：Design and Implementation a Ball Balancing System for Control Theory Course（控制理論課程的球平衡系統設計與實現）&lt;/p&gt;
-&lt;p&gt;摘要內容：開發一個球平衡系統，使用微控制器和相關控制演算法來保持球在橫樑上的平衡，以通過即時感官反饋調整橫樑的角度。在此過程中，製作了三個原型並相互比較，特別是在合理性和成本方面。通過集成一個伺服電機、一個距離感測器、一個微控制器板和一個機械平臺，可以很容易地設計整個系統。此外，他們將通過微控制器程式設計來理解和實現控制演算法。如果學生對MATLAB知之甚少。開發介面程式以在MATLAB中繪製即時位置曲線。這個簡化的系統將作為連接理論知識和實踐技能的橋樑。所提方法也適用於更複雜的系統。&lt;/p&gt;
-&lt;p&gt;文章五: Ball on the plate balancing control system (板上球平衡控制系統)&lt;/p&gt;
-&lt;p&gt;摘要內容 : 平衡問題是一個持續的研究挑戰，適用於從教育到交通的許多興趣領域。二自由度球平衡實驗室試驗台是瞭解控制系統的重要設備。本文重點介紹了在板上平衡球的機械設計。使用電阻式觸摸屏獲取球體位置數據，使用步進電機和位置傳感器控制平台傾斜角度。 設計基於 AVR 微控制器的雙環下屬控制系統，使用 PID 控制器維持球體平衡。&lt;/p&gt;
-&lt;p&gt;文章六 : 2D Ball Balancer Control using QUARC (使用 QUARC 的 2D 球平衡器控制)&lt;/p&gt;
-&lt;p&gt;摘要內容 : 使用 QUARC 軟體設計和實現球體在二維平台上的位置控制。 設計 PD 和 PID 控制器，並探討設定點權重和積分器抗飽和等控制技術。 使用攝像頭讀取球體位置，並進行校準和轉換。&lt;/p&gt;
-&lt;h1&gt;任務3&lt;/h1&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W9</title><link href="./41123247-w9-blog.html" rel="alternate"></link><published>2024-04-18T15:00:00+08:00</published><updated>2024-05-23T05:04:39+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-04-18:./41123247-w9-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
+&lt;h1&gt;任務3&lt;/h1&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W13</title><link href="./41123247-w13-blog.html" rel="alternate"></link><published>2024-04-25T15:00:00+08:00</published><updated>2024-05-23T07:25:08+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-04-25:./41123247-w13-blog.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W9</title><link href="./41123247-w9-blog.html" rel="alternate"></link><published>2024-04-18T15:00:00+08:00</published><updated>2024-05-23T05:04:39+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-04-18:./41123247-w9-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
 
 
@@ -379,7 +256,7 @@ matplotlib 可視化: 使用 matplotlib 繪製 x 和 y 方向座標随時間變�
 &lt;p&gt;如何利用 Github Codespaces 建立, cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站. 先 git submodule add 自己的倉儲空格學號, git add . , git commit -m "add 學號 submodule" , 最後在 git push.&lt;/p&gt;
 &lt;h1&gt;期中報告&lt;/h1&gt;
 &lt;p&gt;由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2a-midbgx_report.pdf 的製作.&lt;/p&gt;
-&lt;h1&gt;此為第三周內容&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W2</title><link href="./41123247-w2-blog.html" rel="alternate"></link><published>2024-02-29T15:00:00+08:00</published><updated>2024-05-23T05:03:55+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-02-29:./41123247-w2-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
+&lt;h1&gt;此為第三周內容&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W2</title><link href="./41123247-w2-blog.html" rel="alternate"></link><published>2024-02-29T15:00:00+08:00</published><updated>2024-05-23T06:49:41+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-02-29:./41123247-w2-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
 
 
@@ -390,7 +267,7 @@ matplotlib 可視化: 使用 matplotlib 繪製 x 和 y 方向座標随時間變�
 &lt;p&gt;啟動動態 指令 1.chmod u+x init_replit 2. ./init_replit 3. Python3 main.py&lt;/p&gt;
 &lt;p&gt;靜態 指令 Python3 -m http.server&lt;/p&gt;
 &lt;p&gt;Push 指令 1.git add . 2. git commit -m " add+你要推的內容 " 3. git push&lt;/p&gt;
-&lt;h1&gt;此為第二周內容&lt;/h1&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W1</title><link href="./41123247-w1-blog.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-05-23T05:03:40+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-02-22:./41123247-w1-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;h1&gt;此為第二周內容&lt;/h1&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>41123247-W1</title><link href="./41123247-w1-blog.html" rel="alternate"></link><published>2024-02-22T15:00:00+08:00</published><updated>2024-05-23T06:49:44+08:00</updated><author><name>41123247</name></author><id>tag:None,2024-02-22:./41123247-w1-blog.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
